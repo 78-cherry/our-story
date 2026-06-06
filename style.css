@@ -1,1 +1,50 @@
+body{
+    margin:0;
+    padding:0;
+    background:#fff8f6;
+    font-family:Georgia, serif;
+    text-align:center;
+    color:#5d4b56;
+}
 
+#welcome-screen{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+        to bottom,
+        #ffe6ef,
+        #fff8f6
+    );
+    padding:20px;
+}
+
+#welcome-screen h1{
+    font-size:2.5rem;
+}
+
+#welcome-screen p{
+    max-width:300px;
+}
+
+#enterBtn{
+    padding:15px 30px;
+    border:none;
+    border-radius:30px;
+    background:#f7b7c3;
+    font-size:18px;
+    margin-top:20px;
+}
+
+.hero{
+    padding:50px 20px;
+}
+
+.cover-photo{
+    width:280px;
+    max-width:90%;
+    border-radius:25px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+}
