@@ -7,6 +7,7 @@ document.getElementById("enterBtn").addEventListener("click", function() {
     document.getElementById("main-content").style.display = "block";
 
 });
+
 function showMessage(message){
 
 document.getElementById("flowerMessage").innerHTML = message;
