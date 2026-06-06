@@ -1,10 +1,18 @@
 body{
     margin:0;
     padding:0;
-    background:#fff8f6;
+    background:linear-gradient(to bottom,#fff8f6,#ffeef5);
     font-family:Georgia, serif;
     text-align:center;
     color:#5d4b56;
+}
+
+section{
+    padding:60px 20px;
+}
+
+h1,h2{
+    color:#cc6f91;
 }
 
 #welcome-screen{
@@ -15,36 +23,128 @@ body{
     align-items:center;
     background:linear-gradient(
         to bottom,
-        #ffe6ef,
+        #ffe4ee,
         #fff8f6
     );
-    padding:20px;
-}
-
-#welcome-screen h1{
-    font-size:2.5rem;
-}
-
-#welcome-screen p{
-    max-width:300px;
 }
 
 #enterBtn{
     padding:15px 30px;
     border:none;
     border-radius:30px;
-    background:#f7b7c3;
+    background:#f8b8c8;
+    color:white;
     font-size:18px;
-    margin-top:20px;
+    cursor:pointer;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
 }
 
-.hero{
-    padding:50px 20px;
+#enterBtn:hover{
+    transform:scale(1.05);
 }
 
-.cover-photo{
+.cover-photo,
+.final-photo{
     width:280px;
     max-width:90%;
     border-radius:25px;
-    box-shadow:0 4px 20px rgba(0,0,0,0.15);
+    box-shadow:0 6px 20px rgba(0,0,0,0.15);
+}
+
+.memory{
+    background:white;
+    max-width:700px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.memory img{
+    width:250px;
+    max-width:100%;
+    border-radius:15px;
+}
+
+.memory p{
+    line-height:1.8;
+}
+
+.reasons{
+    background:#fff2f7;
+}
+
+.reason-card{
+    background:white;
+    margin:15px auto;
+    max-width:500px;
+    padding:18px;
+    border-radius:18px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.garden{
+    background:#fff8fb;
+}
+
+.flowers button{
+    font-size:40px;
+    border:none;
+    background:none;
+    cursor:pointer;
+    margin:10px;
+    transition:0.3s;
+}
+
+.flowers button:hover{
+    transform:scale(1.3);
+}
+
+#flowerMessage{
+    background:white;
+    max-width:500px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    font-size:18px;
+}
+
+.poem-box{
+    background:white;
+    max-width:700px;
+    margin:auto;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    line-height:2;
+    font-style:italic;
+}
+
+.funny-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.funny-gallery img{
+    width:200px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.final-section{
+    background:#fff0f5;
+}
+
+.final-message{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.thank-you{
+    max-width:600px;
+    margin:auto;
+    line-height:1.8;
 }
